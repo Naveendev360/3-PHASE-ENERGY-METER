@@ -1,21 +1,21 @@
-# ⚡ ESP32-Based 3-Phase Energy Meter
+#  ESP32-Based 3-Phase Energy Meter
 
 This project is a **3-Phase Energy Monitoring System** built using the **ESP32**, capable of accurately measuring voltage, current, apparent power, and energy (kWh) for **each phase (A, B, C)**. It displays real-time data on a **20x4 I2C LCD** and logs energy values into **EEPROM**, making it ideal for industrial or lab applications.
 
 ---
 
-## ✅ Features
+##  Features
 
-- 📟 Real-time LCD display with auto-scroll (3s interval)
+-  Real-time LCD display with auto-scroll (3s interval)
 - 📊 Measures:
   - Voltage (Vrms)
   - Current (Irms)
   - Apparent Power (W)
   - Energy (kWh)
-- 🔄 EEPROM logging every 5 mins
-- 🧠 Noise filtering and range validation
-- ⚡ 3-phase support using ZMPT101B & SCT-013 sensors
-- 📤 Serial Monitor logs for debugging
+-  EEPROM logging every 5 mins
+-  Noise filtering and range validation
+-  3-phase support using ZMPT101B & SCT-013 sensors
+-  Serial Monitor logs for debugging
 
 ---
 
@@ -33,7 +33,7 @@ This project is a **3-Phase Energy Monitoring System** built using the **ESP32**
 
 ---
 
-## 🧠 ESP32 Pin Configuration
+##  ESP32 Pin Configuration
 
 | Signal               | GPIO Pin |
 |----------------------|----------|
@@ -48,15 +48,7 @@ This project is a **3-Phase Energy Monitoring System** built using the **ESP32**
 
 ---
 
-## 🔌 Hardware Setup
-
-Make sure to follow proper isolation between high voltage components and ESP32.
-
-![Hardware Setup](images/hardware.jpg)
-
----
-
-## 📟 LCD Display Output
+##  LCD Display Output
 
 The LCD scrolls automatically through each phase every 3 seconds.
 
@@ -74,7 +66,7 @@ The LCD scrolls automatically through each phase every 3 seconds.
 
 ---
 
-## 🖥️ Serial Monitor Output
+##  Serial Monitor Output
 
 Serial output will look like this (9600 baud):
 
@@ -90,7 +82,7 @@ Total kWh:   0.013
 
 ---
 
-## 💾 EEPROM Logging
+##  EEPROM Logging
 
 Energy values are written to EEPROM every **5 minutes** if there's a 0.005 kWh increase:
 
@@ -102,7 +94,7 @@ Energy values are written to EEPROM every **5 minutes** if there's a 0.005 kWh i
 
 ---
 
-## 🧪 Calibration Values
+##  Calibration Values
 
 Ensure accurate measurements by calibrating your sensors. Below are the optimized calibration values used in the code:
 
@@ -113,24 +105,9 @@ Ensure accurate measurements by calibrating your sensors. Below are the optimize
 | C     | 85.8                 | 171.9               |
 
 ---
-
-## 📂 Folder Structure
-
-```
-ESP32_3Phase_EnergyMeter/
-├── ESP32_3Phase_EnergyMeter.ino
-├── README.md
-├── LICENSE
-└── images/
-    ├── hardware.jpg
-    ├── lcd_phase_a.jpg
-    ├── lcd_phase_b.jpg
-    └── lcd_phase_c.jpg
-```
-
 ---
 
-## ⚠️ Safety Warning
+##  Safety Warning
 
 - Handle AC connections with **extreme caution**
 - Always use **isolation**, **optocouplers**, and **fuses**
@@ -157,11 +134,11 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 - **Naveen Kumar S**
-- GitHub: [@Navz360](https://github.com/Navz360)
-- LinkedIn: [naveen-kumar](https://linkedin.com/in/naveen-kumar)
+- GitHub: [@Naveendev360](https://github.com/Naveendev360)
+- LinkedIn: [naveen-kumar](https://www.linkedin.com/in/naveen-kumar-31a168251/)
 
 ---
 
