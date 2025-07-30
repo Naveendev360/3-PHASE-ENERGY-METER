@@ -7,7 +7,7 @@ This project is a **3-Phase Energy Monitoring System** built using the **ESP32**
 ##  Features
 
 -  Real-time LCD display with auto-scroll (3s interval)
-- 📊 Measures:
+-  Measures:
   - Voltage (Vrms)
   - Current (Irms)
   - Apparent Power (W)
@@ -19,7 +19,7 @@ This project is a **3-Phase Energy Monitoring System** built using the **ESP32**
 
 ---
 
-## 📦 Components Used
+##  Components Used
 
 | Component                       | Quantity | Notes                                      |
 |--------------------------------|----------|--------------------------------------------|
